@@ -1,0 +1,17 @@
+{
+  "name": "js-typing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc ts/index --module commonjs --moduleResolution node --outDir js --watch",
+    "start": "node js",
+    "tcomb": "node tcomb"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tcomb": "^3.2.16",
+    "typescript": "^2.1.5"
+  }
+}
